@@ -12,7 +12,7 @@ public class HomePageTest extends BaseTest {
 
     @Test
     public void homePageTitelTest(){
-        Assert.assertEquals(homePage.getHomePageTitle(), AppConstants.LOGIN_PAGE_TITLE);
+        Assert.assertEquals(homePage.getHomePageTitle(), AppConstants.HOME_PAGE_TITLE);
     }
 
     @Test
